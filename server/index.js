@@ -7,7 +7,7 @@ const FoodModel = require('./models/Food')
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect('mongodb+srv://ramazanncelik:!Kbuvo44m34i@cluster0.t7r4ydm.mongodb.net/firstmongodb?retryWrites=true&w=majority', {
+mongoose.connect(your_mongo_server, {
     useNewUrlParser: true
 });
 
